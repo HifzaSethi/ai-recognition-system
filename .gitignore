@@ -1,0 +1,22 @@
+# datasets
+dataset/
+data/
+*.zip
+
+# python
+__pycache__/
+*.pyc
+venv/
+
+# uploads
+uploads/
+
+# node
+node_modules/
+
+# models if too big
+*.h5
+*.ckpt
+
+# colab junk
+.ipynb_checkpoints
