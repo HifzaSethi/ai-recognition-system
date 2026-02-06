@@ -142,3 +142,17 @@ Deep Learning + React + Flask
 ## 📜 License
 
 This project is for educational and research purposes.
+
+## 📸 Screenshots
+
+### 🏠 Home
+
+![Home](screenshots/home.png)
+
+### ✋ Sign Language Detection
+
+![Sign](screenshots/sign.png)
+
+### ✏️ Drawing Recognition
+
+![Draw](screenshots/draw.png)
