@@ -62,7 +62,7 @@ export default function SignLanguage() {
     setPrediction(null);
 
     try {
-      const res = await axios.post("http://127.0.0.1:5000/predict", formData, {
+      const res = await axios.post("https://hifza-sethi-ai-backend.hf.space/predict", formData, {
         timeout: 10000,
       });
       setPrediction(res.data.prediction);
