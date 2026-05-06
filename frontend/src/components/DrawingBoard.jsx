@@ -12,9 +12,9 @@ export default function DrawingBoard() {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
     // Fill dark background
-    ctx.fillStyle = "#ffffff" // slate-800
+    ctx.fillStyle = "#1e293b" // slate-800
     ctx.fillRect(0, 0, canvas.width, canvas.height);
-    ctx.strokeStyle = "#1e293b";
+    ctx.strokeStyle = "#ffffff";
     ctx.lineWidth = 12;
     ctx.lineCap = "round";
     ctx.lineJoin = "round";
@@ -65,7 +65,7 @@ export default function DrawingBoard() {
   const clearCanvas = () => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
-    ctx.fillStyle = "#ffffff";
+    ctx.fillStyle = "#1e293b";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     setPrediction("");
   };
