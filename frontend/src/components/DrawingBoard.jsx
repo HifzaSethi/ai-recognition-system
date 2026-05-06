@@ -106,7 +106,7 @@ export default function DrawingBoard() {
       formData.append("type", "drawing");
 
       try {
-        const response = await fetch("http://127.0.0.1:5000/predict", {
+        const response = await fetch("https://hifza-sethi-ai-backend.hf.space/predict", {
           method: "POST",
           body: formData,
         });
