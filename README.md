@@ -156,3 +156,8 @@ This project is for educational and research purposes.
 ### ✏️ Drawing Recognition
 
 ![Draw](screenshots/draw.png)
+
+
+
+
+Try IT: https://ai-recognition-system.vercel.app/
