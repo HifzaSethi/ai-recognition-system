@@ -152,7 +152,7 @@ export default function DrawingBoard() {
                     Interactive Drawing Canvas
                   </h2>
                   <p className="text-blue-100 text-xs">
-                    Draw shapes, letters, or numbers
+                    Draw House,tree or umbrella
                   </p>
                 </div>
               </div>
